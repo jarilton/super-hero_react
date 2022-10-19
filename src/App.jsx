@@ -1,8 +1,16 @@
+import { Link, Outlet } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <h2>Super Hero</h2>
-  )
+    <div className="app">
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/movie/1">Movie</Link>
+        <Link to="/search">Search</Link>
+      </nav>
+      <h2>Super Hero</h2>
+      <Outlet />
+    </div>
+  );
 }
 
-export default App
