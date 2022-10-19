@@ -1,0 +1,28 @@
+:root {
+    --black: #000000;
+    --main: #f7d354;
+    --hover: #b8930c;
+    --text: #ffffff;
+}
+
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main);
+    transition: 0.5s;
+}
+
+a:hover {
+    color: var(--hover);
+}
