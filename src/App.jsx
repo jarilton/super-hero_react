@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div className="app">
       <Navbar />
-      <h2>Super Hero</h2>
       <Outlet />
     </div>
   );
