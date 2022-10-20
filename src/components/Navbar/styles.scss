@@ -1,0 +1,49 @@
+.navbar {
+  background-color: var(--navbar);
+  &__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    padding: 0.1rem 0.2rem;
+    border-radius: 4px;
+    width: 10rem;
+    border: none;
+  }
+
+  &__button {
+    width: 20px;
+    height: 18px;
+    background-color: var(--main);
+    border: 2px solid var(--main);
+    border-radius: 4px;
+    color: var(--black);
+    padding: 0.1rem;
+    font-size: 0.7rem;
+    align-items: center;
+    margin-left: 4px;
+    transition: 0.4s;
+  }
+
+  &__button:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+  }
+}

@@ -7,7 +7,7 @@ import { Home } from "./pages/Home";
 import { Movie } from "./pages/Movie";
 import { Search } from "./pages/Search";
 
-import "./global.css";
+import "./global.scss";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
