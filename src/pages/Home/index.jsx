@@ -31,8 +31,8 @@ export function Home() {
             {topMovies.length === 0 && <p>Carregando...</p>}
             {topMovies.length > 0 &&
               topMovies.map((movie) => (
-                <div className="home__cards">
-                  <MovieCard key={movie.id} movie={movie} />
+                <div className="home__cards" key={movie.id} >
+                  <MovieCard movie={movie} />
                 </div>
               ))}
           </div>

@@ -35,7 +35,7 @@ export function Navbar() {
                 value={search}
               />
               <button type="submit" className="navbar__button">
-                <BiSearchAlt2 />
+                <BiSearchAlt2 size={20}/>
               </button>
             </form>
           </div>
