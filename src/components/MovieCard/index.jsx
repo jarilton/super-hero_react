@@ -18,10 +18,13 @@ export function MovieCard({ movie, showLink = true }) {
           />
           <h2 className="movie-card__title">{movie.title}</h2>
           <p className="movie-card__star">
-            <FaStar />
-            {movie.vote_average}
+            <FaStar color="var(--main)" /> {movie.vote_average}
           </p>
-          {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
+          {showLink && (
+            <Link to={`/movie/${movie.id}`} className="movie-card__button-link">
+              Detalhes
+            </Link>
+          )}
         </div>
       </div>
     </div>

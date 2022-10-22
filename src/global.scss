@@ -1,96 +1,89 @@
 :root {
-    --black: #000000;
-    --main: #f7d354;
-    --hover: #b8930c;
-    --text: #ffffff;
-    --navbar: #121212;
+  --dark: #000000;
+  --text: #000000;
+  --main: #ff9900;
+  --hover: #ffcc00;
+  --navbar: #121212;
+  --backgroud: #dcdcdc;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 html {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	word-spacing: 1px;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	box-sizing: border-box;
-	-webkit-tap-highlight-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-    background-color: var(--black);
-    color: var(--text);
-	margin: 0;
-	padding: 0;
+  background-color: var(--backgroud);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
-    color: var(--main);
-    transition: 0.5s;
+  text-decoration: none;
+  color: var(--main);
+  transition: 0.5s;
 }
 
 a:hover {
-    color: var(--hover);
+  color: var(--hover);
 }
 
 .container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 @media (min-width: 320px) {
-	.container {
-		max-width: 92%;
-	}
+  .container {
+    max-width: 92%;
+  }
 }
 
 @media (min-width: 360px) {
-	.container {
-		max-width: 88%;
-	}
+  .container {
+    max-width: 88%;
+  }
 }
 
 @media (min-width: 640px) {
-	.container {
-		max-width: 640px;
-	}
+  .container {
+    max-width: 640px;
+  }
 }
 
 @media (min-width: 768px) {
-	.container {
-		max-width: 720px;
-	}
+  .container {
+    max-width: 720px;
+  }
 }
 
 @media (min-width: 1024px) {
-	.container {
-		max-width: 95%;
-	}
+  .container {
+    max-width: 95%;
+  }
 }
 
 @media (min-width: 1360px) {
-	.container {
-		max-width: 1280px;
-	}
+  .container {
+    max-width: 1280px;
+  }
 }
